@@ -1,0 +1,10 @@
+# IMPORTANT: Copy this file to key.properties and fill in your actual values
+# DO NOT commit key.properties to version control!
+
+storePassword=<your_keystore_password>
+keyPassword=<your_key_password>
+keyAlias=dhikrify
+storeFile=<path_to_your_keystore_file>
+
+# To generate a keystore file, run:
+# keytool -genkey -v -keystore ~/dhikrify-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias dhikrify
